@@ -19,7 +19,7 @@ PREFIX [poke](/ontology#): <[https://pokemonkg.org/ontology#](/ontology#)>
 
 |   Dataset   |   Created at   |  # Triples  |  # Entities  |
 | ----------- | -------------- | ----------- | ------------ |
-| [latest.nq.gz](/download/dump/latest.nq.gz) | 19th July 2021 | 143.903 | ?? |
+| [poke-a.nq.gz](/download/dump/poke-a.nq.gz) | 19th July 2021 | 143.903 | ?? |
 
 
 ## Browser
