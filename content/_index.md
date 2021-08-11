@@ -5,7 +5,7 @@ title: "Pokémon Knowledge Graph"
 
 PokemonKG is a knowledge graph covering the Pokémon world as it is presented in games and anime television series.
 
-The constructed knowledge graph gathered information from the following community-driven platforms:
+For the construction of the knowledge graph, information has been gathered from the following community-driven platforms:
 * [Bulbagarden.net](https://bulbapedia.bulbagarden.net)
 * [PokeWiki.de](https://www.pokewiki.de/Hauptseite)
 * [PokeAPI.co](https://pokeapi.co/)
