@@ -20,7 +20,7 @@ title: "Applying Knowledge Graph Embeddings"
 						<tbody>
 							<tr>
 								<td style="border: none; display: flex; justify-content: flex-end;">
-									<img src="https://pokemonkg.org/images/star.svg" style="width: 25px; height>:25px;"/>
+									<img src="/assets/icons/star.svg" style="width: 25px; height>:25px;"/>
 								</td>
 								<td style="border: none;">
 									Pikachu
@@ -34,7 +34,7 @@ title: "Applying Knowledge Graph Embeddings"
 						<tbody>
 							<tr>
 								<td style="border: none; display: flex; justify-content: flex-end;">
-									<img src="https://pokemonkg.org/images/plus.svg" style="width: 25px; height>:25px;"/>
+									<img src="/assets/icons/plus.svg" style="width: 25px; height>:25px;"/>
 								</td>
 								<td style="border: none;">
 									Squirtle
@@ -48,7 +48,7 @@ title: "Applying Knowledge Graph Embeddings"
 						<tbody>
 							<tr>
 								<td style="border: none; display: flex; justify-content: flex-end;">
-									<img src="https://pokemonkg.org/images/square.svg" style="width: 25px; height>:25px;"/>
+									<img src="/assets/icons/square.svg" style="width: 25px; height>:25px;"/>
 								</td>
 								<td style="border: none;">
 									Sunkern
@@ -62,7 +62,7 @@ title: "Applying Knowledge Graph Embeddings"
 						<tbody>
 							<tr>
 								<td style="border: none; display: flex; justify-content: flex-end;">
-									<img src="https://pokemonkg.org/images/thin-diamond.svg" style="width: 25px; height>:25px;"/>
+									<img src="/assets/icons/thin-diamond.svg" style="width: 25px; height>:25px;"/>
 								</td>
 								<td style="border: none;">
 									Fletchling
@@ -75,8 +75,8 @@ title: "Applying Knowledge Graph Embeddings"
 		</tbody>
 	</table>
 	<div style="text-decoration: none;">
-		<a href="https://pokemonkg.org/images/post/kge-parti/t_sne.png">
-			<img src="https://pokemonkg.org/images/post/kge-parti/t_sne.png" style="width: 100%; object-fit: contain;"/>
+		<a href="/assets/content/post/kge-part-i/t_sne.png">
+			<img src="/assets/content/post/kge-part-i/t_sne.png" style="width: 100%; object-fit: contain;"/>
 		</a>
 	</div>
 	<table>
@@ -190,8 +190,8 @@ title: "Applying Knowledge Graph Embeddings"
 {{< /rawhtml >}}
 
 ## Recommendations
-![Linked Data Semantic Distance (CW) Boxplot](https://pokemonkg.org/images/post/kge-parti/rdf2vec_boxplot.png)
-![Linked Data Semantic Distance (CW) Boxplot](https://pokemonkg.org/images/post/kge-parti/ldsd_cw_boxplot.png)
+![Linked Data Semantic Distance (CW) Boxplot](/assets/content/post/kge-part-i/rdf2vec_boxplot.png)
+![Linked Data Semantic Distance (CW) Boxplot](/assets/content/post/kge-part-i/ldsd_cw_boxplot.png)
 
 ### Pikachu
 
