@@ -22,24 +22,41 @@ The Google search engine (available at [google.com](https://google.com)) was use
 
 4) No infobox is available for the search term.
 
-![Google Search Outcomes](https://pokemonkg.org/images/post/pokemon-gold-standard-google-infoboxes-outcomes.png)
+| |
+| -------------------------------------------------------------------------------------------------- |
+| ![Google Search Outcomes](/assets/content/post/google-gold-standard/google-infoboxes-outcomes.png) |
 
 We try to exract recommended Pokémon from infoboxes, and in case of (2), (3a), and (4) we fail. If we fail after searching for the label, the same procedure is repeated by searching for the English label of the Pokémon plus the word `"pokemon"` (e.g. `"Pikachu pokemon"`). Should this attempt fail as well, then we try to find the Pokémon in the recommendation list of another Pokémon. If all those attempts fail, then we have found no recommendations for this particular Pokémon.
 
 Should we have been successful for a Pokémon, then a closer look is taken at the recommended enities in the infobox. Those entities must not necessarily be other Pokémon, while it is rare to find one thats not. The label of the entities is strictly matched to a set of labels of all known Pokémon, which works surprisingly well. Hence, we easily get a list of recommended Pokémon simply skipping all non-Pokémon entities.
 
-Finally, the browsing experience was setup such that (A) fresh browser instance is used for each search, (B) all cookies were disabled, and (C) a VPN into the United Kingdom was used.
+Finally, the browsing experience was setup such that (A) fresh browser instance is used for each search, (B) all cookies were disabled, and (C) a VPN into the United States of America was used.
 
 
-The source code of the Python application can be found [here]().
+The source code of the Python application can be found [here](https://github.com/pokemon-kg/google-gold-standard).
 
 ## Result
 
-
 ### Generation I
 
+This file considers only Pokémon from Generation I. However, Meowth (#52) is excluded, because the recommendations in the Google infobox of Meowth contain no Pokémon, but mostly personalities related to Pokémon such as voice actors, game designer, etc.
 
+|    Dataset    | Created at       |       N         |
+| ------------- | ---------------- | --------------- |
+| [generation-i.csv](/gold-standard/google-infobox/2021-08/generation-i.csv) | 12th August 2021 | 9 |
 
 ### Generation I-II
 
+This file considers only Pokémon from Generation I and II. However, Meowth (#52) is excluded, because the recommendations in the Google infobox of Meowth contain no Pokémon, but mostly personalities related to Pokémon such as voice actors, game designer, etc.
+
+|    Dataset    | Created at       |       N         |
+| ------------- | ---------------- | --------------- |
+| [generation-i-ii.csv](/gold-standard/google-infobox/2021-08/generation-i-ii.csv) | 12th August 2021 | 9 |
+
 ### Generation I-VI
+
+This file considers all Pokémon from Generation I to VI. However, four Pokémon are excluded, namely Meowth (#52), Wailord (#321), Pachirisu (#417) and Haxorus (#612).
+
+|    Dataset    | Created at       |       N         |
+| ------------- | ---------------- | --------------- |
+| [generation-i-vi.csv](/gold-standard/google-infobox/2021-08/generation-i-vi.csv) | 12th August 2021 | 20 |
