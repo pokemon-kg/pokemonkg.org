@@ -19,9 +19,13 @@ PREFIX [poke](/ontology#): <[https://pokemonkg.org/ontology#](/ontology#)>
 
 |   Dataset   |   Created at   |  # Triples  |  # Entities  |
 | ----------- | -------------- | ----------- | ------------ |
-| [poke-a.nq.gz](/download/dump/poke-a.nq.gz) | 19th July 2021 | 143.903 | ?? |
+| [poke-a.nq.gz](/download/dump/poke-a.nq.gz) | 19th July 2021 | 129.834 | 18568 |
 
 
 ## Browser
 
 The knowledge graph can be browsed/searched through [here](https://search.pokemonkg.org/).
+
+## Contact
+
+* Kevin Haller - [contact@kevinhaller.dev](mailto:contact@kevinhaller.dev)
